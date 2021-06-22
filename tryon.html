@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Simple Virtual Try On</title>
+        <meta charset="utf-8">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<link rel="stylesheet" href="assets/css/tryon.css">
+       
+    </head>
+    <body>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- three.js r54 -->
+        <script src="assets/js/three.js"></script>
+        <!-- clmtrack -->
+        <script src="assets/js/utils.js"></script>
+        <script src="assets/js/clmtrackr.js"></script>
+		<script src="assets/js/tryon.js"></script>
+
+        <div id="tryon">
+            <video id="camera" loop></video>
+            <canvas id="overlay"></canvas>
+        </div>
+      
+		<div class="buttons">
+            <div class="btn-group-vertical">
+                <button type="button" id="tryonBtn" class="btn"><i class="fa fa-camera"></i> Try On</button>
+                <button type="button" onclick="javascript:document.location.reload()" id="end" class="btn"><i class="fa fa-power-off"></i> Turn Off</button>
+            </div>
+        </div>
+        <div id="debug"></div>
+
+        <script>
+        
+            
+        </script>
+    </body>
+</html>
